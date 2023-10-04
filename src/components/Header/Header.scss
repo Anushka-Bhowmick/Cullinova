@@ -1,24 +1,42 @@
 @import "../../App.scss";
-.navbar{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    height: 60px;
-    position: relative;
-    z-index: 999;
-    transition: $transition;
 
-    .navbar-brand-text{
-        margin-left: 5px;
-    }
-    .navbar-search-btn{
-        margin-right: 12px;
-    }
-}
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 60px;
+  position: relative;
+  z-index: 999;
+  transition: $transition;
 
-.scrolled{
+  .navbar-brand-text {
+    margin-left: 5px;
+    color: $clr-white; 
+    transition: $transition; 
+  }
+
+  .navbar-show-btn {
+    margin-right: 12px;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    transition: $transition; 
+  }
+  &:hover {
+    .navbar-brand-text {
+      color: yellow; 
+    }
+
+    .navbar-show-btn {
+        color: yellow;
+      transform: scale(1.1); 
+    }
+  }
+
+  &.scrolled {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+  }
 }
 
 .header{
