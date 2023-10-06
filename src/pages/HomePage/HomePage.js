@@ -14,6 +14,7 @@ const HomePage = () => {
       { (mealsLoading) ? <Loader /> : (meals === null) ? <NotFound /> : (meals?.length) ? <MealList meals = {meals} /> : "" }
       { (categoryLoading) ? <Loader /> : <CategoryList categories = {categories} /> }
     </main>
+    
   )
 }
 

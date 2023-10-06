@@ -10,6 +10,7 @@ import { Home, MealDetails, Error, Category } from "./pages/index";
 // components
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path = "/meal/category/:name" element = {<Category />} />
         <Route path  = "*" element = {<Error />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
