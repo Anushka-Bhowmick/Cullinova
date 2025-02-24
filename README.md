@@ -18,3 +18,9 @@
 - 🎨 **Modern & user-friendly UI**  
 
 ---
+### Build with
+
+- <img src = "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" height=30px width=30px> **React** - for client 
+- <img src = "https://github.com/Debaditya-Som/Culinova/assets/121785700/db0e724e-1b0c-41e9-9480-11f0510f1de8" height=30px width=30px> **Sass** - for styling the website
+- <img src = "https://github.com/Debaditya-Som/Culinova/assets/121785700/c141e1e2-b19d-4c01-ae14-81f06cb64ece" height=30px width=30px> **mealDB API** : for fetching the data related to recipies
+- <img src = "https://github.com/Debaditya-Som/Culinova/assets/121785700/fbd15bdb-d275-4bc7-8bd6-cde88d7d300f" height=30px width=30px>  Deployed in **Vercel**
